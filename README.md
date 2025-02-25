@@ -1,6 +1,6 @@
 
 # sruputkode-auth
-Contoh program sederhana login dan registrasi Laravel 11
+Contoh program sederhana login dan registrasi dengan fitur verifikasi Email Laravel 11
 
 ini merupakan tutorial dari https://www.sruputkode.com/2025/02/cara-membuat-login-dan-register-dengan.html
 
@@ -15,6 +15,8 @@ composer install
 ```
 
 Kemudian silahkan buat database sobs-sobs bebas ya nama databasenya. kemudian edit file *.env* sesuaikan dengan pengaturan database sobs-sobs jika tidak ada file *.env* maka rename file *.env.example* menjadi *.env*
+
+**Ingat sobs, sesuaikan Mailtrap konfigurasinya di file .env** karena direpository untuk konfigurasi mailtrap di .env masih belum di ubah
 
 jalankan migration file database
 
@@ -36,3 +38,4 @@ php artisan serve
 Selesai sobs-sobs :smile:
 
 
+![Logo Sruputkode](https://res.cloudinary.com/dho4y13sa/image/upload/v1740486643/Logo-Blog-2_ciz9gl.png)
