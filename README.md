@@ -2,3 +2,37 @@
 # sruputkode-auth
 Contoh program sederhana login dan registrasi Laravel 11
 
+ini merupakan tutorial dari https://www.sruputkode.com/2025/02/cara-membuat-login-dan-register-dengan.html
+
+petunjuk sobs-sobs
+
+```git
+git clone https://github.com/sruput-kode/sruputkode-auth.git
+```
+
+```composer
+composer install
+```
+
+Kemudian silahkan buat database sobs-sobs bebas ya nama databasenya. kemudian edit file *.env* sesuaikan dengan pengaturan database sobs-sobs jika tidak ada file *.env* maka rename file *.env.example* menjadi *.env*
+
+jalankan migration file database
+
+```php
+php artisan migrate
+```
+
+
+```php
+php artisan key:generate
+```
+
+Kemudian jalankan dua perintah ini sekaligus dan jangan diberhentikan ya sobs.
+
+```php
+php artisan serve
+```
+
+Selesai sobs-sobs :smile:
+
+
