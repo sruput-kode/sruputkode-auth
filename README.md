@@ -1,5 +1,5 @@
 
-# sruputkode-auth
+# Login dan Register Email Verify Laravel
 Contoh program sederhana login dan registrasi dengan fitur verifikasi Email Laravel 11
 
 ini merupakan tutorial dari https://www.sruputkode.com/2025/02/cara-membuat-login-dan-register-dengan.html
